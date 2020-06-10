@@ -1,0 +1,264 @@
+body::-webkit-scrollbar{
+    width: 10px;
+    background:#eef1f2 ;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgba(34, 45, 50, 0.7);
+    border-radius: 10px;
+    border-right: 2px solid;
+    opacity: 1;
+}
+
+.espacio_menu{
+    height: 10px;
+}
+
+.grafica{
+    width: 64%;
+    position: relative;
+    left: 18%;
+} 
+
+.body_todo{
+    background: #CAD2C5;
+}
+
+.img_desplegar{
+    width: 20px;
+}
+
+
+.boton_desplegar:hover{
+    background: #5F8B90;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+.cabecera{
+    background: #3c8dbc;
+}
+
+.lema{
+    background: #33759a;
+    color: #fff;
+    font-weight: 500;
+}
+
+.panel_menu{
+    background: #222d32;
+    color: #b8c7ce;;
+}
+
+.contenido{
+    background: #CAD2C5;
+}
+
+.pie_pagina{
+    background:#3c8dbc;
+    color: #fff;
+    font-weight: 500;
+}
+
+.icono_opciones{
+    width: 20px;
+}
+
+.icono_menu{
+    width:25px ;
+    
+}
+
+.fecha_hora{
+    background: #222d32;
+    color: #b8c7ce;;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    align-items: initial;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.boton_menu{
+    background: #222d32;
+    color: #b8c7ce;;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    align-items: initial;
+}
+
+.boton_menu:hover{
+    text-decoration: none;
+    background: #5F8B90;
+    color: #fff;
+   text-transform: uppercase;
+   width: 101%;
+   border: 1px solid;
+   height: 60px;
+   padding: 15px;
+}
+
+.cabecera_tablas{
+    background-color: #52796F; 
+    color: white; 
+    font-weight: bold;
+}
+
+.pie_tablas{
+    background-color: #84A98C; 
+    color: white; 
+    font-weight: bold;
+}
+
+.divUsuario{
+    position: absolute;
+    left: 95%;
+    width: 35px;
+    height: 35px;
+    z-index: 20;
+}
+
+.btnUsuario{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url('../recursos/usuario3.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%; /* también sirve con: center center */
+}
+
+.divDetalleUsuario{
+    display:none;
+    width:200px;
+    height:200px;
+    border: 1px solid;
+    border-color: #fff;
+    position: absolute;
+    left: 85%;
+  }
+
+  .divNombreDetalles{
+      height: 80%;
+      background:#3c8dbc;
+  }
+  .div_opcionesDetalles{
+      height: 20%;
+      background: #fff;
+      text-align: center;
+  }
+
+ .icono_detalleUsuario{
+      width: 50%;
+      position: relative;
+      left: 25%;
+      border-radius: 50%;
+  } 
+
+  .titulo_detalleUsuario{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .nombre_detalleUsuario{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .btn_detalleUsuario{
+      position: relative;
+      top: 7px;
+  }
+
+  .btn_detalleUsuario:hover{
+      background: #c0c8ca;
+  }
+  
+  .a_detalleUsuario{
+      color: #000;
+  }
+
+  .a_detalleUsuario:hover{
+      text-decoration: none;
+      color: #000;
+  }
+
+  .tabla_centrado{
+    text-align: center;
+}
+
+
+/*Validacion rojo producto rojo*/
+
+.p_escaso{
+    color: red;
+    text-transform: uppercase; 
+}
+
+
+@media (max-width: 500px) {
+    .divUsuario{
+        position: absolute;
+        left: 85%;
+        width: 35px;
+        height: 35px;
+        display: none;
+    }
+
+    .grafica{
+        width: 100%;
+        position: initial;
+    }
+
+    /* .divDetalleUsuario{
+        display:none;
+        width:150px;
+        height:135px;
+        border: 1px solid;
+        border-color: #fff;
+        position: absolute;
+        left: 57%;
+
+    }
+    .divNombreDetalles{
+        height: 70%;
+        background:#3c8dbc;
+    }
+    .icono_detalleUsuario{
+        width: 40%;
+        position: relative;
+        left: 30%;
+        border-radius: 50%;
+        bottom: 20px;
+    } 
+    .div_opcionesDetalles{
+        height: 30%;
+        background: #fff;
+        text-align: center;
+    }
+
+    .btn_detalleUsuario{
+        position: relative;
+        bottom: 0px;
+        align-items: center;
+        font-size: 10px;
+    }
+  
+    .btn_detalleUsuario:hover{
+        background: #c0c8ca;
+    }
+    .titulo_detalleUsuario{
+        color: #000;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        bottom: 15px;
+      } */
+
+}
+
